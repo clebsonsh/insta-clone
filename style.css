@@ -9,7 +9,6 @@
 
 body{
   width: 100%;
-  min-width: 100vh;
   background-color: rgb(243, 243, 243);
   margin: 0;
   padding: 0;
@@ -21,7 +20,7 @@ body{
   display: flex;
   align-items: center;
   justify-content: start;
-  width: 60%;
+  width: 935px;
   height: 100vh;
 }
 
@@ -41,7 +40,7 @@ body{
   align-items: center;
   justify-content: space-around;
   flex-direction: column;
-  width: 50%;
+  width: 350px;
   min-height: 34rem;
 }
 
@@ -127,25 +126,13 @@ body{
   background-image: url('img/googleplay-button.png');
 }
 
-/* media queries */
 
-@media (max-width: 1080px) {
-  .instagram-wrapper{
-    width: 90%;
+@media (max-width: 864px) {
+  .instagram-wrapper {
+    justify-content: center;
   }
-}
 
-
-@media (max-width: 650px) {
-  .instagram-wrapper{
-    width: 90%;
-  }
-  
   .instagram-phone {
     display: none;
-  }
-
-  .instagram-continue {
-    width: 100%;
   }
 }
